@@ -18,6 +18,10 @@ body {
   display: flex;
 }
 
+.huddle-logo {
+  transform: scale(0.8);
+}
+
 .hero-img {
   justify-content: center;
 }
@@ -96,11 +100,11 @@ i:hover {
   }
 
   .hero-img {
-    padding: 50px;
+    display: flex;
+    transform: scale(0.51);
   }
 
   .hero-description {
-    padding: 50px;
     text-align: center;
   }
 
