@@ -1,6 +1,7 @@
 /* font-family: 'Poppins', sans-serif; -Heading (400, 600)  */
 /* font-family: 'Open Sans', sans-serif; -paragraph (400) */
 
+html,
 body {
   background-color: hsl(257, 40%, 49%);
   background-image: url("./images/bg-desktop.svg");
@@ -15,7 +16,7 @@ body {
 }
 
 .navbar {
-  display: flex;
+  justify-content: center;
 }
 
 .huddle-logo {
@@ -33,7 +34,7 @@ body {
 
 h1 {
   font-family: "Poppins", sans-serif;
-  font-size: 2.188rem;
+  font-size: 1.76rem;
   color: white;
 }
 
@@ -47,7 +48,7 @@ button {
   font-size: 1.063rem;
   color: hsl(257, 40%, 49%);
   border: none;
-  padding: 4% 15%;
+  padding: 4% 20%;
   margin: 2% 0 0;
   border-radius: 1.875rem;
   cursor: pointer;
@@ -72,6 +73,7 @@ a {
   justify-content: center;
   margin: auto;
   margin-top: 40%;
+  margin-right: auto;
   font-size: 1.563rem;
   color: white;
 }
@@ -97,19 +99,24 @@ i:hover {
 @media screen and (max-width: 600px) {
   .container {
     flex-direction: column;
+    justify-content: center;
   }
 
   .hero-img {
     display: flex;
     transform: scale(0.51);
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .hero-description {
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   h1 {
-    font-size: 1.563rem;
+    font-size: 1.25rem;
   }
 
   p {
@@ -121,9 +128,48 @@ i:hover {
     color: white;
   }
 
-  .socials {
+  button {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.063rem;
+    color: hsl(257, 40%, 49%);
+    border: none;
+    padding: 5% 35%;
+    margin: 1% 0 0;
+    border-radius: 1.875rem;
+    cursor: pointer;
+    display: flex;
     justify-content: center;
-    font-size: 1.563rem;
+    box-shadow: 0 0.313rem 0.938rem 0.25rem hsl(0, 0%, 29%);
+  }
+
+  button:hover {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.063rem;
+    background-color: hsl(300, 69%, 71%);
     color: white;
+  }
+
+  .socials {
+    margin-top: 10%;
+    justify-content: center;
+    font-size: 1.561rem;
+    color: white;
+  }
+
+  i {
+    color: white;
+    font-size: 1rem;
+    width: 1.25rem;
+    height: 1.25rem;
+    text-align: center;
+    padding: 0.313rem;
+    margin-right: 0.625rem;
+    border: 0.063rem solid white;
+    border-radius: 50%;
+  }
+
+  i:hover {
+    color: hsl(300, 69%, 71%);
+    border: 0.063rem solid hsl(300, 69%, 71%);
   }
 }
