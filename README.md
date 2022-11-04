@@ -15,7 +15,7 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 ### Screenshot
 Mobile
-![Mobile Screenshot](./images/mobile-screenshot.jpg "Mobile Screenshot")
+![Mobile Screenshot](./images/mobile-screenshot .jpg "Mobile Screenshot")
 Desktop
 ![Desktop Screenshot](./images/desktop-screenshot.jpg "Desktop Screenshot")
 
