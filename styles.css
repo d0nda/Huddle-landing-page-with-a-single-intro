@@ -96,7 +96,7 @@ i:hover {
 }
 
 /* Media Rule */
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 325px) and (max-width: 600px) {
   .container {
     flex-direction: column;
     justify-content: center;
